@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(4, 44, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+    background-color: rgb(10, 10, 168);
+    width: 380px;
+    min-height: 600px;
+    box-shadow: 0px 20px 65px 1px rgb(4, 44, 95);
+    padding: 25px;
+    border-radius: 10px;
+}
+.wrapperImage{
+    width: 100%;
+    border-radius: 10px;
+}
+.wrapperTitle{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 18px;
+}
+.wrapperDesc{
+    color: blueviolet;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.wrapperCash{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(209, 31, 132);
+    padding-bottom: 28px;
+}
+.wrapperCashInfo{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 8px;
+}
+.wrapperCashTime{
+    color: #fff;
+    display: flex;
+    gap: 8px;
+    letter-spacing: 1px;
+}
+.wrapperAuthor{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+.wrapperAuthor img{
+    width: 35px;
+    border: 2px solid rgb(241, 76, 145);
+    border-radius: 50%;
+}
+.wrapperAuthor p {
+    color: rgb(95, 95, 102);
+}
+.wrapperAuthor span{
+    color: #fff;
+}
